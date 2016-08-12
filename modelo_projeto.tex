@@ -133,7 +133,7 @@
 %% mude o resumo  do projeto
 %% ====================================
 %% ====================================
-\initial\textbf{Esta documentação tem como objetivo demonstrar na prática a elaboração de um projeto de cabeamento estruturado, embasando-se em normas nacionais e internacionais como, por exemplo, NBR-14565-2007 e TIA/EIA-568-B. A implantação do presente projeto será realizado de forma fictícia em um edifício comercial de dois andares, onde o piso um possui 6 salas e o piso 2 possui 10 salas com tomadas de telecomunicações.
+\initial\textbf{Esta documentação tem como objetivo demonstrar na prática a elaboração de um projeto de cabeamento estruturado, embasando-se em normas nacionais e internacionais como, por exemplo, NBR-14565-2007 e TIA/EIA-568-B. A implantação do presente projeto será realizado de forma fictícia em um edifício comercial de dois andares, onde o piso 1 possui 6 salas e o piso 2 possui 10 salas com tomadas de telecomunicações.
 A rede de cabeamento estruturado será criada do zero com o intuito de administrar de uma forma precisa e eficaz os recursos de dados e voz, atendendo as necessidades momentâneas e futuras de uma organização.
 Os elementos de rede presente nos pisos serão devidamente identificados utilizando-se de padrões, o layout se dá por meio de um cabeamento horizontal que interliga cada área de trabalho aos armários de telecomunicações presentes nos dois pisos e esses por sua vez são interligados por um backbone.}
 
@@ -167,30 +167,26 @@ Os elementos de rede presente nos pisos serão devidamente identificados utiliza
 %% ====================================
 %% ====================================
 \section{Introdução}
-O projeto tem a finalidade de atender a necessidade de interligação de dois andares, sendo o piso 1 com 6 salas e o piso 2 com 10 salas, levando pontos de redes com acesso a dados e voz para cada área de trabalho do edifício. 
+O projeto tem a finalidade de atender a necessidade de interligação de dois andares, sendo o piso 1 com 6 salas e o piso 2 com 10 salas, levando pontos de redes com acesso a dados e voz, por meio de cabeamento horizontal para cada área de trabalho do edifício. 
 Atualmente o prédio não conta com nenhum equipamento de TI facilitando a implantação do projeto em questão.
 Basicamente o projeto utilizará um armário de telecomunicação em cada piso interligados por um backbone e em cada armário de telecomunicação teremos um path panel e switch para dados e um path panel e switch para voz.
 
 
 \subsection{Benefícios}
-Com a implantação de um projeto de cabeamento estruturado seguindo normas como NBR-14565-2007 e TIA/EIA-568-B os principais benefícios são que a probabilidade de ocorrer erros na camada física diminui muito, por conta dos equipamentos e testes realizados no processo, a identificação de problemas posteriores na camada física podem ser identificados de forma mais fácil por conta da identificação dos pontos de redes e com a estruturação a rede pode ser facilmente expandida.
+Com a implantação de um projeto de cabeamento estruturado seguindo normas como NBR-14565-2007 e TIA/EIA-568-B os principais benefícios são:
+- Probabilidade de ocorrer erros na camada física é menor por conta dos equipamentos e testes realizados no processo;
+- A identificação de problemas posteriores na camada física podem ser localizados de forma mais fácil por conta da identificação dos pontos de redes;
+- Uma rede estruturada esta preparada para um processo de ampliação. 
 
 
-\section{Usuários e Aplicativos}
-Galera aqui preciso de ajuda para demonstrar como podemos expandir essa rede colocando mais equipamentos no rack ou nos pontos de rede, e estipular uma quantidade inicial de usuários que a rede atende. Não precisamos detalhar muito quais equipamentos e quantidade pois essas informações devemos colocar no plano de expansão em um próximo tópico. Aguardo sugestões.
- 
-
-\subsection{Usuários}
-Definindo o tópico de cima partimos para esse.
-
-
-\subsection{Aplicativos}
-Aqui podemos bolar algo tipo uma estrutura comercial com as aplicações necessárias para toca a empresa?
+\section{Usuários}
+Augusto: A estrutura a ser aplicada poderá atender até 64 usuários simultaneamente, número definido pela quantidade de pontos de rede a serem instalados, sendo que a estrutura final contará com a possibilidade de ampliação da rede como um todo, visto que a empresa possui metas de crescimento. O número de usuários e aplicativos utilizados serão especificados a seguir.
+João: No projeto que tenho piso 1 16 tomadas sendo sala 01 e 04 com 4 tomadas e o restante das salas com duas tomadas cada.
+E piso 2 Sala 2 com 3 tomadas e Sala 3 com 4 tomadas e o resto com duas tomadas pois nas normas para conseguir certificar cada área de trabalho deve possuir no mínimo 2 tomadas, vamos seguir esses números do projeto que tenho? Pois as tabelas com identificação já estão prontas com esses pontos se mudarmos teremos que refazer as tabelas. o que acham?
 
 
 \section{Estrutura predial existente}
-
-O prédio que o cabeamento irá atender é composto por piso 1 que possui 6 salas com tomadas de telecomunicação e o piso 2 que é composto por 10 salas com tomadas de telecomunicação. OBS: Vou abrir a planta no Autocad e mando a imagem para a gente melhorar esse tópico.   
+A estrutura a ser atendida com o projeto de cabeamento estruturado é composta por 2 pisos. O 1º piso possui XXX m², dividido em 6 salas e o 2º piso, XXX m², dividido em 10 salas, sendo que ambos possuem estrutura para passagem do cabeamento, como eletrocalhas, canaletas/dutos e caixas de passagem.    
 
 Deve conter uma descrição geral, indicando a possível distância entre os pontos de rede e restrições de instalação.
 
