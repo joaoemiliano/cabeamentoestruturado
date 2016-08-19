@@ -107,7 +107,7 @@
 
 \preauthor{\begin{flushleft}
 					\large \lineskip 0.5em \usefont{OT1}{phv}{b}{sl} \color{DarkRed}}
-\author{Augusto Fernando Ruis, Clayton Camargo Oliveira, João Emiliano dos Santos, Renan Ribeiro Sakomoto Zuculin}  	% Author name goes here
+\author{Augusto Fernando Ruis, Clayton Camargo Oliveira, João Emiliano dos Santos, Renan Ribeiro Sakomoto Zuculin e Rodrigo}  	% Author name goes here
 
 
 \postauthor{\footnotesize \usefont{OT1}{phv}{m}{sl} \color{Black} 
@@ -175,69 +175,139 @@ Basicamente o projeto utilizará um armário de telecomunicação em cada piso i
 
 \subsection{Benefícios}
 Com a implantação de um projeto de cabeamento estruturado seguindo normas como NBR-14565-2007 e TIA/EIA-568-B os principais benefícios são:
-- Probabilidade de ocorrer erros na camada física é menor por conta dos equipamentos e testes realizados no processo;
-- A identificação de problemas posteriores na camada física podem ser localizados de forma mais fácil por conta da identificação dos pontos de redes;
-- Uma rede estruturada esta preparada para um processo de ampliação. 
+\begin{itemize}
+\item Probabilidade de ocorrer erros na camada física é menor por conta dos equipamentos e testes realizados no processo;
+\item A identificação de problemas posteriores na camada física podem ser localizados de forma mais fácil por conta da identificação dos pontos de redes;
+\item Uma rede estruturada esta preparada para um processo de ampliação. 
+\end{itemize}
 
-
-<<<<<<< HEAD
 \section{Usuários}
-Augusto: A estrutura a ser aplicada poderá atender até 64 usuários simultaneamente, número definido pela quantidade de pontos de rede a serem instalados, sendo que a estrutura final contará com a possibilidade de ampliação da rede como um todo, visto que a empresa possui metas de crescimento. O número de usuários e aplicativos utilizados serão especificados a seguir.
-João: No projeto que tenho piso 1 16 tomadas sendo sala 01 e 04 com 4 tomadas e o restante das salas com duas tomadas cada.
-E piso 2 Sala 2 com 3 tomadas e Sala 3 com 4 tomadas e o resto com duas tomadas pois nas normas para conseguir certificar cada área de trabalho deve possuir no mínimo 2 tomadas, vamos seguir esses números do projeto que tenho? Pois as tabelas com identificação já estão prontas com esses pontos se mudarmos teremos que refazer as tabelas. o que acham?
+A estrutura contará inicialmente com 16 tomadas de telecomunicação distribuídas nas salas do piso 1, onde as salas 1 e 4 terão 4 tomadas cada uma e as demais salas terão 2 tomadas cada.
+O piso 2 contará com 23 tomadas de telecomunicação sendo que a sala 2 possuirá 3 tomadas e a sala 3 possuirá 4 tomadas, as demais sala do piso terão duas tomadas de telecomunicação cada uma.
+A maioria das salas possuem 2 tomadas pois para o processo de certificação essa é a quantidade mínima de pontos para cada área de trabalho, porém a estrutura final contará com a possibilidade de ampliação da rede como um todo, visto que a empresa possui metas de crescimento e o projeto de cabeamento estruturado visa atender essa expansão.
 
 
 \section{Estrutura predial existente}
-A estrutura a ser atendida com o projeto de cabeamento estruturado é composta por 2 pisos. O 1º piso possui XXX m², dividido em 6 salas e o 2º piso, XXX m², dividido em 10 salas, sendo que ambos possuem estrutura para passagem do cabeamento, como eletrocalhas, canaletas/dutos e caixas de passagem.    
-=======
-\section{Usuários e Aplicativos}
+A estrutura a ser atendida com o projeto de cabeamento estruturado é composta por 2 pisos. O piso 1 possui XXX, dividido em 6 salas e o piso 2, XXX, dividido em 10 salas, sendo que ambos possuem estrutura para passagem do cabeamento, como eletrocalhas, canaletas, dutos e caixas de passagem.    
+OBS: (Colocar metragem dos Pisos e Anexar a Planta)
 
-A estrutura a ser aplicada poderá atender até 64 usuários simultaneamente, número definido pela quantidade de pontos de rede a serem instalados, sendo que a estrutura final contará com a possibilidade de ampliação da rede como um todo, visto que a empresa possui metas de crescimento. O número de usuários e aplicativos utilizados serão especificados a seguir.
-
-%GALERA aqui preciso de ajuda para demonstrar como podemos expandir essa rede colocando mais equipamentos no rack ou nos pontos de rede, e %estipular uma quantidade inicial de usuários que a rede atende. Não precisamos detalhar muito quais equipamentos e quantidade pois essas %informações devemos colocar no plano de expansão em um próximo tópico. Aguardo sugestões.
-
-%GALERA, FIZ A CONTA DE 16 SALAS X 4 PONTOS DE REDE CADA SALA:
- 
-
-\subsection{Usuários}
-Definindo o tópico de cima partimos para esse.
-
-
-\subsection{Aplicativos}
-Aqui podemos bolar algo tipo uma estrutura comercial com as aplicações necessárias para toca a empresa?
-
-
-\section{Estrutura predial existente}
-%DEVE conter uma descrição geral, indicando a possível distância entre os pontos de rede e restrições de instalação.
-
-A estrutura a ser atendida com o projeto de cabeamento estruturado é composta por 2 pisos. O 1º piso possui XXX m², dividido em 6 salas e o 2º piso, XXX m², dividido em 10 salas, sendo que ambos possuem estrutura para passagem do cabeamento, como eletrocalhas, canaletas/dutos e caixas de passagem. 
->>>>>>> origin/master
-
-Abaixo podemos observar detalhes da planta do prédio, conforme figura:
-
-%VOU abrir a planta no Autocad e mando a imagem para a gente melhorar esse tópico.   
 
 \section{Planta Lógica - Elementos estruturados}
 
 
 \subsection{Topologia}
-Proposta futura, proposta após implantação.
-Deve conter o diagrama da rede. Atente-se a redundância  e ligações truncadas.
-Deve explicar todos termos e componentes utilizados nestas plantas. Por exemplo: entrance facility, work area, horizontal cabling, etc..
+No piso 1 foi inserido um armário de telecomunicações, que contém dois Path Panels de 24 portas, e esses estão diretamente conectados a dois Switches de 24 portas. Esses equipamentos estão divididos da seguinte maneira um Switch e um Path Panel disponível para dados e um Switch e um Path Panel disponível para voz e uma régua de energia, todos esses equipamentos estão localizados em um rack de 24U 670mm, disponibilizando um total de 32 pontos de comunicação, dividindo-se em dezesseis para dados e dezesseis para voz, interconectando as seis salas presentes nesse piso.
+No piso 2 foi inserido um armário de telecomunicações, que contém dois Path Panels de 48 portas, e esses estão diretamente conectados a dois Switches de 48 portas. Esses equipamentos estão divididos da seguinte maneira um Switch e um Path Panel disponível para dados e um Switch e um Path Panel disponível para voz e uma régua de energia, todos esses equipamentos estão localizados em um rack de 24U 670mm, disponibilizando um total de 46 pontos de comunicação, dividindo-se em vinte e três para dados e vinte e três para voz, interconectando as dez salas presentes nesse piso. A interligação dos pavimentos utiliza-se de um backbone composto de fibra óptica 2 pares.
+A tabela 1 ilustra o layout dessa topologia acima descrita e a tabela 2 é a legenda dos equipamentos apresentados na tabela 1.
 
-Todos os elementos das figuras devem ser explicados. 
-Crie esboço da configuração dos racks e brackets. Explique cada um dos componentes. Você pode criar uma tabela contendo figuras dentro, ou criar uma tabela e incluí-la como imagem. Por exemplo, verifique a tabela \ref{tab1}.
-
-%%\input{tab1}
+\input{tab1}
+\input{tab2}
 
 \subsection{Encaminhamento}
-Eletrodutos, calhas, e qualquer material em que os cabos serão alojados/alocados.
+O cabeamento foi realizado em dois pisos de um edifício comercial, utilizando-se de eletrocalhas embutidas na parede, as tomadas de telecomunicações que disponibilizam dados e voz estão a 45 cm do chão conforme as normas de cabeamento estruturado.
 
 \subsection{Memorial descritivo}
+Na tabela 3 temos os principais equipamentos que serão utilizados para a elaboração do projeto com a estimativa de quantidade, abaixo da tabela segue as especificações dos equipamentos de maior relevância.
+\input{tab3}
 
-Relacione todos os equipamentos passivos que serão utilizados, tipo, fabricante, quantidade.
+A figura 1 apresenta o Armário de telecomunicação utilizado no piso 1 e 2, com as seguintes especificações: 
+\begin{itemize}
+\item Material: Aço
+\item Espessura: 2,00 mm
+\item Espessura Portas e Laterais: 1,20 mm
+\item Altura: 2100 mm
+\item Largura: 600 mm
+\item Profundidade: 800mm
+\item Peso: 112Kg
+\end{itemize}
+
+%% Figura 1 rack
+\begin{figure}
+\centering
+\includegraphics[]{rack}
+\caption{Rack Fechado 19 44U x 600 x 800 mm para Piso Preto Nazda }
+\label{fig1}
+\end{figure}
+
+
+Figura 2 apresenta Switch de 48 portas utilizado no piso 2 para atender as 10 salas presentes no andar.
+O Cisco Catalyst 3550 12G é um membro da série Catalyst 3550G Switches Ethernet Inteligentes, uma linha de classe empresarial, empilhável, multilayer switches que fornecem alta disponibilidade, segurança e qualidade de serviço (QoS) para melhorar o funcionamento da rede. Com uma gama de configurações Fast Ethernet e Gigabit Ethernet, a série Catalyst 3550G pode servir tanto como switch de camada de um poderoso acesso para armários de ligações médias empresas e como um switch de backbone para redes de médio porte.
+
+%% Figura 2 switch 48 portas
+\begin{figure}
+	\centering
+	\includegraphics[]{sw48}
+	\caption{Switch Cisco 48 Portas Catalyst Ws-c3550}
+	\label{fig2}
+\end{figure}
+
+
+Figura 3 apresenta Switch de 24 portas utilizado no piso 1 para atender as 6 salas presentes no andar.
+Switch Baseline com Configuração fixa - 24 portas Gigabit 10/100/1000 que suportam conexões de alto desempenho.
+Priorização IEEE 802.1p que oferece compatibilidade com as redes que suportam aplicações de tempo real.
+Pode ser montado em racks ou empilhado para otimizar o espaço, sua altura de 1U padrão simplifica o planejamento do espaço.
+
+%% Figura 3 switch 24 portas
+\begin{figure}
+	\centering
+	\includegraphics[]{sw24}
+	\caption{Switch Gigabit 3com 24 Portas 10/100/1000 }
+	\label{fig3}
+\end{figure}
+
+
+Figura 4 apresenta Path Panel de 24 e 48 portas utilizados nos armários de telecomunicação que interliga o cabeamento horizontal aos Switches.
+\begin{itemize}
+\item Excede os requisitos estabelecidos nas normas para CAT.6 / Classe E
+\item Performance garantida para até 6 conexões em canais de até 100 metros
+\item 24 ou 48 posições RJ-45
+\item Painel frontal em plástico com porta etiquetas para identificação
+\item Possui borda de reforço para evitar empenamento 
+\item Fornecido com parafusos e arruelas para fixação
+\item Fornecido com ícones de identificação e velcros para organização
+\item Fornecido com guia traseiro para melhor organização dos cabos
+\end{itemize}
+
+%% Figura 4 path panel 24/48 portas
+\begin{figure}
+	\centering
+	\includegraphics[]{pp2448}
+	\caption{Patch Panel 24 e 48 portas}
+	\label{fig4}
+\end{figure}
+
+
+Figura 5 apresenta a régua utilizado nos armários de telecomunicação com a seguinte característica: 
+\begin{itemize}
+\item Régua sem disjuntor com 8 tomadas para rack e cabo com 1,5 mts
+\end{itemize}
+
+%% Figura 5 regua
+\begin{figure}
+	\centering
+	\includegraphics[]{regua}
+	\caption{Régua com 8 tomadas}
+	\label{fig5}
+\end{figure}
+
 
 \subsection{Identificação dos cabos}
+A tabela 4 representa a identificação dos pontos das 6 salas presentes no piso 1.
+A tabela 5 representa a identificação dos pontos das 10 salas presentes no piso 2, com a seguinte legenda:
+\begin{itemize}
+\item TO - Número da tomada de telecomunicação
+\item A  - Dados 
+\item B  - Voz	
+\item SL - Sala 
+\item P  - Piso
+\end{itemize}
+
+%% Tabelas com identificação dos Pontos
+\input{tab4}
+\input{tab5}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Implantação}
 Estabeleça um cronograma de implantação:
@@ -261,15 +331,11 @@ Como os testes seriam executados?
 Quais relatórios de certificação serão (ou deveriam ser) entregues? 
 
 \section{Plano de manutenção}
-
 Revisões periódicas na rede, emissão de certificados para novos pontos.
 
 \subsection{Plano de expansão}
 Existe um plano de expansão? Quantos novos pontos poderão ser acrecidos na rede, antes de migração de equipamentos na camada 2? Se houver expansão, quais equipamentos deverão ser direcionados para as estremidades da rede? 
 
-
-\section{Orçamento}
-Crie uma relação de orçamentos baseado na seções anteriores.
 
 \section{Referências bibliográficas}
 Utilize o mendley, o jabref ou diretamente o bibtex para gerenciar suas referências biliográficas. As referências são criadas automaticamente de acordo com o uso no texto.
@@ -283,74 +349,5 @@ Analisando os pressupostos de \cite{ref3} e \cite{ref4} concluimos que....
 \bibliographystyle{ieeetr}
 \bibliography{referencias}  
 
-%% ***********************************************************************
-%% === remover daqui =====================================================
-%% ***********************************************************************
 
-\section{Elementos textuais - Alguns exemplos}
-
-Esta seção apresenta exemplos de elementos textuais. \textbf{Remova-a da versão final do texto}.
-
-
-\subsection{Colocar elementos em itens}
-
-Texto antes da lista
-
-\begin{itemize}
-	\item First item in a list 
-	\item Second item in a list 
-	\item Third item in a list
-\end{itemize}
-
-\subsubsection{Uma sub seçao de terceiro nivel}
-
-Exemplo de uma subseção
-
-\subsection{Tabelas}
-
-Utilize o site http://www.tablesgenerator.com/ para elaborar as tabelas de seu trabalho.
-Para adicionar uma tabela utilize: a tag input, passando o arquivo da tabela como parametro
-
-%%\input{tab2}
-
-Dentro do arquivo você deve definir o label e pode utilizá-lo para referenciar. Exemplo:
-Na tab \ref{tab2} temos a relação de ....
-
-
-Você também pode modificar a tabela manualmente, incluindo, por exemplo h! dentro de sua definição. Veja no exemplo tab2.tex
-
-\subsection{Figuras}
-
-As figuras podem ser no formato PDF, JPG, PNG. Você pode referenciá-las da mesma maneira que tabelas. Exemplo: A figura \ref{fig1} apresenta.....
-
-Não se preocupe o local em que a figura será renderizada em seu texto. Preocupe-se em criar referência para ela, ou seja, toda figura e tabela deve conter pelo menos uma referência no texto.
-
-\begin{figure}
-\centering
-%%\includegraphics[width=\textwidth]{fig1}
-\caption{Exemplo de figura com escala horizontal}
-\label{fig1}
-\end{figure}
-
-
-\begin{figure}
-	\centering
-%%	\includegraphics[]{fig2}
-	\caption{Exemplo de figura sem escala}
-	\label{fig2}
-\end{figure}
-
-Você pode rotacionar figuras também. Para isso utilize o parâmetro angle=-90. Repare que a escala da figura foi modificada pelo parametro height. Você também pode utilizar scale
-
-\begin{figure}
-	\centering
-%%	\includegraphics[height=\textwidth,angle=-90]{fig3}
-	\caption{Exemplo de figura rotacionada}
-	\label{fig3}
-\end{figure}
-
-
-%% ***********************************************************************
-%% === ate aqui    =====  ================================================
-%% ***********************************************************************
 \end{document}

@@ -1,0 +1,13 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: modelo_projeto.aux
+The style file: ieeetr.bst
+I couldn't open database file referencias.bib
+---line 43 of file modelo_projeto.aux
+ : \bibdata{referencias
+ :                     }
+I'm skipping whatever remains of this command
+I found no database files---while reading file modelo_projeto.aux
+Warning--I didn't find a database entry for "t2013"
+Warning--I didn't find a database entry for "kurose2010"
+Warning--I didn't find a database entry for "ref3"
+Warning--I didn't find a database entry for "ref4"
+(There were 2 error messages)
