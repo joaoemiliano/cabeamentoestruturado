@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.10)  19 AUG 2016 18:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.10)  21 AUG 2016 16:59
 entering extended mode
 **./modelo_projeto.tex
 (modelo_projeto.tex
@@ -1121,16 +1121,28 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 16
 ]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 179.
- [4
+ <piso1.jpg, id=20, 242.40562pt x 351.56343pt>
+File: piso1.jpg Graphic file (type jpg)
 
-] (tab1.tex
-<fig1.jpg, id=23, 1101.11375pt x 1341.01pt>
+<use piso1.jpg>
+Package pdftex.def Info: piso1.jpg used on input line 196.
+(pdftex.def)             Requested size: 242.40501pt x 351.56256pt.
+ <piso2.jpg, id=21, 237.13594pt x 347.04657pt>
+File: piso2.jpg Graphic file (type jpg)
+ <use piso2.jpg>
+Package pdftex.def Info: piso2.jpg used on input line 204.
+(pdftex.def)             Requested size: 237.13535pt x 347.04572pt.
+
+[4
+
+] [5 <./piso1.jpg>] [6 <./piso2.jpg>] (tab1.tex
+<fig1.jpg, id=33, 1101.11375pt x 1341.01pt>
 File: fig1.jpg Graphic file (type jpg)
  <use fig1.jpg>
 Package pdftex.def Info: fig1.jpg used on input line 8.
 (pdftex.def)             Requested size: 220.21884pt x 268.19725pt.
 ) (tab2.tex
-<fig2.jpg, id=24, 629.35126pt x 278.54062pt>
+<fig2.jpg, id=34, 629.35126pt x 278.54062pt>
 File: fig2.jpg Graphic file (type jpg)
  <use fig2.jpg>
 Package pdftex.def Info: fig2.jpg used on input line 8.
@@ -1139,46 +1151,46 @@ Package pdftex.def Info: fig2.jpg used on input line 8.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (tab3.tex <fig3.jpg, id=25, 528.47438pt x 284.56313pt>
+) (tab3.tex <fig3.jpg, id=35, 528.47438pt x 284.56313pt>
 File: fig3.jpg Graphic file (type jpg)
  <use fig3.jpg>
 Package pdftex.def Info: fig3.jpg used on input line 8.
 (pdftex.def)             Requested size: 264.23654pt x 142.2812pt.
 )
-[5 <./fig1.jpg>] <rack.jpg, id=31, 301.125pt x 301.125pt>
+[7 <./fig1.jpg>] <rack.jpg, id=40, 301.125pt x 301.125pt>
 File: rack.jpg Graphic file (type jpg)
  <use rack.jpg>
-Package pdftex.def Info: rack.jpg used on input line 227.
+Package pdftex.def Info: rack.jpg used on input line 241.
 (pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
 
-[6 <./fig2.jpg> <./fig3.jpg>] <sw48.jpg, id=35, 457.71pt x 217.81375pt>
+[8 <./fig2.jpg> <./fig3.jpg>] <sw48.jpg, id=44, 457.71pt x 217.81375pt>
 File: sw48.jpg Graphic file (type jpg)
 
 <use sw48.jpg>
-Package pdftex.def Info: sw48.jpg used on input line 239.
+Package pdftex.def Info: sw48.jpg used on input line 253.
 (pdftex.def)             Requested size: 457.7089pt x 217.8132pt.
 
-Overfull \hbox (2.46472pt too wide) in paragraph at lines 239--240
+Overfull \hbox (2.46472pt too wide) in paragraph at lines 253--254
  [][] 
  []
 
-<sw24.jpg, id=36, 390.45876pt x 140.525pt>
+<sw24.jpg, id=45, 390.45876pt x 140.525pt>
 File: sw24.jpg Graphic file (type jpg)
  <use sw24.jpg>
-Package pdftex.def Info: sw24.jpg used on input line 253.
+Package pdftex.def Info: sw24.jpg used on input line 267.
 (pdftex.def)             Requested size: 390.4578pt x 140.52464pt.
 
-<pp2448.jpg, id=37, 220.825pt x 220.825pt>
+<pp2448.jpg, id=46, 220.825pt x 220.825pt>
 File: pp2448.jpg Graphic file (type jpg)
  <use pp2448.jpg>
-Package pdftex.def Info: pp2448.jpg used on input line 274.
+Package pdftex.def Info: pp2448.jpg used on input line 288.
 (pdftex.def)             Requested size: 220.82445pt x 220.82445pt.
- [7 <./rack.jpg>]
-[8 <./sw48.jpg> <./sw24.jpg> <./pp2448.jpg>]
-<regua.jpg, id=45, 220.825pt x 117.43875pt>
+ [9 <./rack.jpg>]
+[10 <./sw48.jpg> <./sw24.jpg> <./pp2448.jpg>]
+<regua.jpg, id=53, 220.825pt x 117.43875pt>
 File: regua.jpg Graphic file (type jpg)
  <use regua.jpg>
-Package pdftex.def Info: regua.jpg used on input line 288.
+Package pdftex.def Info: regua.jpg used on input line 302.
 (pdftex.def)             Requested size: 220.82445pt x 117.43845pt.
  (tab4.tex
 
@@ -1204,55 +1216,26 @@ Overfull \hbox (48.22508pt too wide) in paragraph at lines 5--55
 LaTeX Warning: Float too large for page by 23.5992pt on input line 55.
 
 )
-Overfull \hbox (84.47485pt too wide) in paragraph at lines 321--326
+Overfull \hbox (84.47485pt too wide) in paragraph at lines 333--338
 []\OT1/cmr/m/n/12 (-20) Segue uma relac~ao de fer-ra-men-tas: http://asana.com
 /, https://trello.com/, http://www.ganttproject.biz/,
  []
 
-[9 <./regua.jpg>] [10] [11]
-
-LaTeX Warning: Citation `t2013' on page 12 undefined on input line 343.
-
-
-LaTeX Warning: Citation `kurose2010' on page 12 undefined on input line 343.
-
-
-LaTeX Warning: Citation `ref3' on page 12 undefined on input line 345.
-
-
-LaTeX Warning: Citation `ref4' on page 12 undefined on input line 345.
-
-(modelo_projeto.bbl
-
-Class scrartcl Warning: incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input li
-ne 1.
-
-
-LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
-               before end of `thebibliography' environment on input line 3.
-
-) 
+[11 <./regua.jpg>] [12] [13] 
 AED: lastpage setting LastPage
-[12] (modelo_projeto.aux)
-
-LaTeX Warning: There were undefined references.
-
+[14] (modelo_projeto.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11524 strings out of 493335
- 183230 string characters out of 3136683
- 529833 words of memory out of 3000000
- 14707 multiletter control sequences out of 15000+200000
- 25773 words of font info for 103 fonts, out of 3000000 for 9000
+ 11536 strings out of 493335
+ 183297 string characters out of 3136683
+ 529915 words of memory out of 3000000
+ 14712 multiletter control sequences out of 15000+200000
+ 25969 words of font info for 107 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,14n,77p,8827b,467s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 54i,14n,77p,8827b,471s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
@@ -1266,9 +1249,9 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/urw/helvetic/uhvro8a.pfb>
-Output written on modelo_projeto.pdf (12 pages, 439180 bytes).
+Output written on modelo_projeto.pdf (14 pages, 521885 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
+ 107 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 29225 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 29235 words of extra memory for PDF output out of 29859 (max. 10000000)
 

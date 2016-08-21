@@ -107,7 +107,7 @@
 
 \preauthor{\begin{flushleft}
 					\large \lineskip 0.5em \usefont{OT1}{phv}{b}{sl} \color{DarkRed}}
-\author{Augusto Fernando Ruis, Clayton Camargo Oliveira, João Emiliano dos Santos, Renan Ribeiro Sakomoto Zuculin e Rodrigo}  	% Author name goes here
+\author{Augusto Fernando Ruis, Clayton Camargo Oliveira, Leonardo Jambersi, João Emiliano dos Santos, Renan Ribeiro Sakomoto Zuculin e Rodrigo Dall' Agnol}  	% Author name goes here
 
 
 \postauthor{\footnotesize \usefont{OT1}{phv}{m}{sl} \color{Black} 
@@ -188,12 +188,26 @@ A maioria das salas possuem 2 tomadas pois para o processo de certificação ess
 
 
 \section{Estrutura predial existente}
-A estrutura a ser atendida com o projeto de cabeamento estruturado é composta por 2 pisos. O piso 1 possui XXX, dividido em 6 salas e o piso 2, XXX, dividido em 10 salas, sendo que ambos possuem estrutura para passagem do cabeamento, como eletrocalhas, canaletas, dutos e caixas de passagem.    
-OBS: (Colocar metragem dos Pisos e Anexar a Planta)
+A estrutura a ser atendida com o projeto de cabeamento estruturado é composta por 2 pisos. O piso 1 possui área de 278,00 metros, dividido em 6 salas e o piso 2 possui área de 278,00 metros, dividido em 10 salas, sendo que ambos possuem estrutura para passagem do cabeamento, como eletrocalhas, canaletas, dutos e caixas de passagem. As figuras 1 e 2 ilustram a planta do piso 1 e 2 respectivamente    
+
+%% Figura 1 piso 1
+\begin{figure}
+	\centering
+	\includegraphics[]{piso1}
+	\caption{Planta Piso 1}
+	\label{fig1}
+\end{figure}
+
+%% Figura 2 piso 2
+\begin{figure}
+	\centering
+	\includegraphics[]{piso2}
+	\caption{Planta Piso 2}
+	\label{fig2}
+\end{figure}
 
 
 \section{Planta Lógica - Elementos estruturados}
-
 
 \subsection{Topologia}
 No piso 1 foi inserido um armário de telecomunicações, que contém dois Path Panels de 24 portas, e esses estão diretamente conectados a dois Switches de 24 portas. Esses equipamentos estão divididos da seguinte maneira um Switch e um Path Panel disponível para dados e um Switch e um Path Panel disponível para voz e uma régua de energia, todos esses equipamentos estão localizados em um rack de 24U 670mm, disponibilizando um total de 32 pontos de comunicação, dividindo-se em dezesseis para dados e dezesseis para voz, interconectando as seis salas presentes nesse piso.
@@ -210,7 +224,7 @@ O cabeamento foi realizado em dois pisos de um edifício comercial, utilizando-s
 Na tabela 3 temos os principais equipamentos que serão utilizados para a elaboração do projeto com a estimativa de quantidade, abaixo da tabela segue as especificações dos equipamentos de maior relevância.
 \input{tab3}
 
-A figura 1 apresenta o Armário de telecomunicação utilizado no piso 1 e 2, com as seguintes especificações: 
+A figura 3 apresenta o Armário de telecomunicação utilizado no piso 1 e 2, com as seguintes especificações: 
 \begin{itemize}
 \item Material: Aço
 \item Espessura: 2,00 mm
@@ -221,42 +235,42 @@ A figura 1 apresenta o Armário de telecomunicação utilizado no piso 1 e 2, co
 \item Peso: 112Kg
 \end{itemize}
 
-%% Figura 1 rack
+%% Figura 3 rack
 \begin{figure}
 \centering
 \includegraphics[]{rack}
 \caption{Rack Fechado 19 44U x 600 x 800 mm para Piso Preto Nazda }
-\label{fig1}
+\label{fig3}
 \end{figure}
 
 
-Figura 2 apresenta Switch de 48 portas utilizado no piso 2 para atender as 10 salas presentes no andar.
+Figura 4 apresenta Switch de 48 portas utilizado no piso 2 para atender as 10 salas presentes no andar.
 O Cisco Catalyst 3550 12G é um membro da série Catalyst 3550G Switches Ethernet Inteligentes, uma linha de classe empresarial, empilhável, multilayer switches que fornecem alta disponibilidade, segurança e qualidade de serviço (QoS) para melhorar o funcionamento da rede. Com uma gama de configurações Fast Ethernet e Gigabit Ethernet, a série Catalyst 3550G pode servir tanto como switch de camada de um poderoso acesso para armários de ligações médias empresas e como um switch de backbone para redes de médio porte.
 
-%% Figura 2 switch 48 portas
+%% Figura 4 switch 48 portas
 \begin{figure}
 	\centering
 	\includegraphics[]{sw48}
 	\caption{Switch Cisco 48 Portas Catalyst Ws-c3550}
-	\label{fig2}
+	\label{fig4}
 \end{figure}
 
 
-Figura 3 apresenta Switch de 24 portas utilizado no piso 1 para atender as 6 salas presentes no andar.
+Figura 5 apresenta Switch de 24 portas utilizado no piso 1 para atender as 6 salas presentes no andar.
 Switch Baseline com Configuração fixa - 24 portas Gigabit 10/100/1000 que suportam conexões de alto desempenho.
 Priorização IEEE 802.1p que oferece compatibilidade com as redes que suportam aplicações de tempo real.
 Pode ser montado em racks ou empilhado para otimizar o espaço, sua altura de 1U padrão simplifica o planejamento do espaço.
 
-%% Figura 3 switch 24 portas
+%% Figura 5 switch 24 portas
 \begin{figure}
 	\centering
 	\includegraphics[]{sw24}
 	\caption{Switch Gigabit 3com 24 Portas 10/100/1000 }
-	\label{fig3}
+	\label{fig5}
 \end{figure}
 
 
-Figura 4 apresenta Path Panel de 24 e 48 portas utilizados nos armários de telecomunicação que interliga o cabeamento horizontal aos Switches.
+Figura 6 apresenta Path Panel de 24 e 48 portas utilizados nos armários de telecomunicação que interliga o cabeamento horizontal aos Switches.
 \begin{itemize}
 \item Excede os requisitos estabelecidos nas normas para CAT.6 / Classe E
 \item Performance garantida para até 6 conexões em canais de até 100 metros
@@ -268,26 +282,26 @@ Figura 4 apresenta Path Panel de 24 e 48 portas utilizados nos armários de tele
 \item Fornecido com guia traseiro para melhor organização dos cabos
 \end{itemize}
 
-%% Figura 4 path panel 24/48 portas
+%% Figura 6 path panel 24/48 portas
 \begin{figure}
 	\centering
 	\includegraphics[]{pp2448}
 	\caption{Patch Panel 24 e 48 portas}
-	\label{fig4}
+	\label{fig6}
 \end{figure}
 
 
-Figura 5 apresenta a régua utilizado nos armários de telecomunicação com a seguinte característica: 
+Figura 7 apresenta a régua utilizado nos armários de telecomunicação com a seguinte característica: 
 \begin{itemize}
 \item Régua sem disjuntor com 8 tomadas para rack e cabo com 1,5 mts
 \end{itemize}
 
-%% Figura 5 regua
+%% Figura 7 regua
 \begin{figure}
 	\centering
 	\includegraphics[]{regua}
 	\caption{Régua com 8 tomadas}
-	\label{fig5}
+	\label{fig7}
 \end{figure}
 
 
@@ -306,8 +320,6 @@ A tabela 5 representa a identificação dos pontos das 10 salas presentes no pis
 \input{tab4}
 \input{tab5}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Implantação}
 Estabeleça um cronograma de implantação:
@@ -325,29 +337,37 @@ http://www.ganttproject.biz/,
 http://www.orangescrum.org/. 
 
 \section{Plano de certificação}
-Quais seriam as etapas para a certificação? 
-Quais os locais e horários para execução da certificação na rede? Toda rede será certificada?
-Como os testes seriam executados?
-Quais relatórios de certificação serão (ou deveriam ser) entregues? 
+Tão importante quanto à instalação é a certificação de uma rede, que da a garantia que a rede esta disponível para uso. Todos os teste devem ser realizados por profissionais qualificados e equipamentos especiais e devidamente calibrados que seguem uma serie de parâmetros determinados pela norma  ANSI/TIA-568-C (2009)  
+
+\begin{itemize}
+\item Configuração de Terminação (Wire Map)
+\item Comprimento do Cabo
+\item Perda de Inserção (Atenuação)
+\item Perda de Retorno (Impedância)
+\item Paradiafonia NEXT, PS-NEXT, ELNEXT e PS-ELNEXT
+\item Relação Atenuação/Paradiafonia (ACR)
+\item Atraso de Propagação (Delay)
+\item Desvio no Atraso de Propagação (Delay Skew)	
+\end{itemize}
+
+A certificação será iniciada após as instalações dos componentes e será realizada em horário comercial. Será realizada a Certificação de toda rede relacionada nesse projeto. 
+
 
 \section{Plano de manutenção}
-Revisões periódicas na rede, emissão de certificados para novos pontos.
-
-\subsection{Plano de expansão}
-Existe um plano de expansão? Quantos novos pontos poderão ser acrecidos na rede, antes de migração de equipamentos na camada 2? Se houver expansão, quais equipamentos deverão ser direcionados para as estremidades da rede? 
+Todo material utilizado no cabeamento estruturado devera ser de um único fabricante ou de fabricantes que juntos atendem todas as necessidade e garantias do projeto.  
+Deve ser realizada revisão a cada 3 messes no primeiro ano e após primeiro ano a cada 6 messes. 
+Dentro de 5 anos serão feitas visitas para revisão da rede e cobrindo garantia e substituição de componentes defeituosos decorrente de causas naturais ou de uso. Visitas extras serão realizadas até 5 dias úteis após solicitação do contratante.  Será realizado certificações a cada 10 novos pontos implantados. 
 
 
 \section{Referências bibliográficas}
-Utilize o mendley, o jabref ou diretamente o bibtex para gerenciar suas referências biliográficas. As referências são criadas automaticamente de acordo com o uso no texto.
+\begin{itemize}
+\item ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 14565: Procedimento básico para elaboração de projetos de cabeamento de telecomunicações para rede interna estruturada. Rio de Janeiro: Abnt – Associação Brasileira de Normas Técnicas, 2000. 48 p.
 
-Exemplo: Redes de computadores, segundo \cite{t2013} é considerada..... Já \cite{kurose2010} apresenta uma versão...
+\item MARIN, Paulo Sérgio. Cabeamento Estruturado: Desenvolvendo cada passo: do projeto à instalação. 3. ed. São Paulo: Érica Ltda., 2010. 336 p.
 
-Analisando os pressupostos de \cite{ref3} e \cite{ref4} concluimos que....
+\item TELECOMMUNICATIONS INDUSTRY ASSOCIATION / ELECTRONIC INDUSTRIES ALLIANCE. 568-B.1-2001: Commercial Building Telecommunications Cabling Standard. Arlington, Va, Estados Unidos: Telecommunications Industry Association 2001, 2001. 79 p.
 
-
-\renewcommand\refname{} %%Referências bibliográficas}  
-\bibliographystyle{ieeetr}
-\bibliography{referencias}  
+\end{itemize}
 
 
 \end{document}
