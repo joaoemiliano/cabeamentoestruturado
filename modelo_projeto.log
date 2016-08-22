@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.10)  21 AUG 2016 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.10)  22 AUG 2016 11:01
 entering extended mode
 **./modelo_projeto.tex
 (modelo_projeto.tex
@@ -1215,25 +1215,34 @@ Overfull \hbox (48.22508pt too wide) in paragraph at lines 5--55
 
 LaTeX Warning: Float too large for page by 23.5992pt on input line 55.
 
-)
-Overfull \hbox (84.47485pt too wide) in paragraph at lines 333--338
-[]\OT1/cmr/m/n/12 (-20) Segue uma relac~ao de fer-ra-men-tas: http://asana.com
-/, https://trello.com/, http://www.ganttproject.biz/,
+) (tab6.tex <cronograma.png, id=54, 614.295pt x 205.5178pt>
+File: cronograma.png Graphic file (type png)
+
+<use cronograma.png>
+Package pdftex.def Info: cronograma.png used on input line 8.
+(pdftex.def)             Requested size: 491.43666pt x 164.41446pt.
+
+Overfull \hbox (48.1925pt too wide) in paragraph at lines 5--11
+ [][] 
  []
 
-[11 <./regua.jpg>] [12] [13] 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [11 <./regua.jpg>] [12] [13] [14 <./cronograma.png>]
+
 AED: lastpage setting LastPage
-[14] (modelo_projeto.aux)
+[15] (modelo_projeto.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11536 strings out of 493335
- 183297 string characters out of 3136683
- 529915 words of memory out of 3000000
- 14712 multiletter control sequences out of 15000+200000
- 25969 words of font info for 107 fonts, out of 3000000 for 9000
+ 11542 strings out of 493335
+ 183398 string characters out of 3136683
+ 529924 words of memory out of 3000000
+ 14720 multiletter control sequences out of 15000+200000
+ 25822 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,14n,77p,8827b,471s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
@@ -1249,9 +1258,9 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/urw/helvetic/uhvro8a.pfb>
-Output written on modelo_projeto.pdf (14 pages, 521885 bytes).
+Output written on modelo_projeto.pdf (15 pages, 531889 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
+ 111 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 29235 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 29240 words of extra memory for PDF output out of 29859 (max. 10000000)
 

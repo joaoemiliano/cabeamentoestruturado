@@ -9,6 +9,6 @@
 \contentsline {subsection}{\numberline {4.3}Memorial descritivo}{7}
 \contentsline {subsection}{\numberline {4.4}Identifica\IeC {\c c}\IeC {\~a}o dos cabos}{11}
 \contentsline {section}{\numberline {5}Implanta\IeC {\c c}\IeC {\~a}o}{11}
-\contentsline {section}{\numberline {6}Plano de certifica\IeC {\c c}\IeC {\~a}o}{14}
+\contentsline {section}{\numberline {6}Plano de certifica\IeC {\c c}\IeC {\~a}o}{11}
 \contentsline {section}{\numberline {7}Plano de manuten\IeC {\c c}\IeC {\~a}o}{14}
 \contentsline {section}{\numberline {8}Refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{14}
